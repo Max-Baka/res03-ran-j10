@@ -2,7 +2,7 @@ h1 {
     color:#253879;
     text-align: center;
 }
-h3 {margin-top: 0;
+h3 {margin-top: 10px;
     text-align:center;
     background-color: #3a61ef;
     flex-direction: column;
@@ -21,4 +21,6 @@ main{
 }
 #right {
     grid-columns:3/4;
+    column: 2;
+    
 }
