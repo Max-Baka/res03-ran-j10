@@ -1,0 +1,24 @@
+h1 {
+    color:#253879;
+    text-align: center;
+}
+h3 {margin-top: 0;
+    text-align:center;
+    background-color: #3a61ef;
+    flex-direction: column;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#left {
+    border-right:solid black 1px;
+    grid-columns:1/2;
+}
+#middle {
+    border-right: solid black 1px;
+    grid-columns:2/3;
+}
+#right {
+    grid-columns:3/4;
+}
